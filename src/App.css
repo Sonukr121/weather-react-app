@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  background-color:aquamarine;
+  width: 70%;
+  margin: auto auto;
+  box-shadow: rgba(31, 29, 30, 0.4) 5px 5px, rgba(82, 78, 80, 0.3) 10px 10px, rgba(74, 70, 72, 0.2) 15px 15px, rgba(71, 67, 70, 0.1) 20px 20px, rgba(52, 49, 51, 0.05) 25px 25px;
+  border: 2px solid;
+  padding: 30px;
+  border-color: rgb(6, 6, 6);
+  border-radius: 10px;
+}
+
+.sub-block{
+  display: flex;
+  background-color:aqua;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.search{
+  width: 60%;
+  margin: 20px 0px;
+  padding: 12px;
+  outline: none;
+  border-radius: 7px;
+}
